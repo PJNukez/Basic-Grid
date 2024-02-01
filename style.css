@@ -1,17 +1,19 @@
 body {
     margin: 0;
 }
+
 .logo {
     display: flex;
     justify-content: center;
-    height: 100px;
+    height: 200px;
     background-color: black;
 }
 
 .logo-pic img {
     width: 100px;
-    height: 100px;
+    height: 200px;
 }
+
 .menu-btn {
     display: flex;
     justify-content: center;
@@ -63,8 +65,10 @@ body {
 
 img {
     width: 180px;
-    height: 180px;
+    height: 200px;
+    object-fit: cover;
 }
+
 h3 {
     font-weight: bolder;
 }
